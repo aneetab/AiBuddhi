@@ -1,0 +1,171 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:rgba(228, 217, 217, 0.945)!important;
+}
+
+.form .row
+{
+    background:#fff!important;
+    border-radius:30px;
+}
+.socialbutton
+{
+    height:40px;
+    width:70px;
+    border-radius:4px;
+    border:1px solid #000;
+    font-weight: bold;
+    padding:2px;
+    margin:8px;
+    margin-bottom:20px;
+    font-size: 1rem;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.socialbutton:hover
+{
+    background:rgb(159, 228, 228);
+}
+.socialbutton p
+{
+    padding-top: 3px;
+}
+
+.fb,.google
+{
+    height:30px;
+    width:40px;
+    padding:2px;
+    margin:1px;
+}
+h1
+{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    opacity: 0.8;
+    font-size: 1.2rem;
+    margin:20px 0 15px 0;
+    font-weight:bold;
+    line-height:1.4;
+    word-spacing:4px;
+    font-family:"Poppins",sans-serif; 
+}
+h2
+{
+    
+    letter-spacing: 2px;
+    opacity: 0.9;
+    font-size: 0.5rem;
+    margin:20px 0 15px 0;
+    font-weight:medium;
+    line-height:1;
+    word-spacing:3px;
+    font-family:"Poppins",sans-serif;
+}
+.btn1
+{
+    height:50px;
+    width:100%;
+    outline:none;
+    border:none;
+    background:#000;
+    color:#fff;
+    border-radius:4px;
+    font-weight: bold;
+}
+.btn1:hover
+{
+    border:1px solid #000;
+    background:#fff;
+    color:#000;
+}
+svg
+{
+    padding-top:10px;
+}
+.line1
+{
+
+    height:3px;
+    width:200px;
+    background:#000;
+}
+.navi
+{
+    min-height:10vh;
+    font-family:'Poppins',sans-serif;
+    width: 100% !important;
+    z-index:100;
+    text-transform: uppercase !important;
+}
+
+.navbar-image img
+{
+    height:70px !important;
+    width: 130px !important;
+}
+.line2
+{
+    height:3px;
+    width:200px;
+    background:#000;
+}
+a:hover
+{
+    color:rgb(110, 16, 16)!important;
+}
+a,p
+{
+    text-transform:capitalize;
+    letter-spacing: 1px;
+ opacity: 0.9;
+ font-size: 0.9rem;
+ font-weight:bold;
+ line-height:1.5;
+ font-family:"Poppins",sans-serif;
+ 
+}
+footer
+ {
+     background:rgba(95, 7, 19, 0.322);
+     font-weight:bolder;
+     width:100%;
+     height:auto;
+     padding:40px 0 20px 0;
+     position:relative;
+ }
+
+ .footersection a
+ {
+     
+     text-transform:capitalize;
+     letter-spacing: 1px;
+  opacity: 0.9;
+  font-size: 0.9rem;
+  font-weight:bold;
+  line-height:1.5;
+  font-family:"Poppins",sans-serif;
+  color:#fff;
+ }
+ .footersection h2 
+ {
+    
+    letter-spacing: 1px;
+ opacity: 0.9;
+ font-size: 0.9rem!important;
+ font-weight:bold;
+ line-height:1.5!important;
+ font-family:"Poppins",sans-serif;
+ color:#fff;
+    
+    
+
+ }
+
