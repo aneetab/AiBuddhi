@@ -4,40 +4,59 @@
 <title></title>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--------*CSS files*--------->
+  <!--font-awesome-->
   <link rel="stylesheet" href="assets/fontawesome-icons/all.css">
   <link rel="stylesheet" href="assets/fonts/font.css">
+  <!--google fonts-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600;1,700&display=swap" rel="stylesheet">
+  <!--Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!--Custom Css file-->
   <link rel="stylesheet" href="css/style.css">
+  <!--OWL-CAROUSEL-->
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 <body>
     <div class="header" id="topheader">
-    <nav>
-        <div class="logo">
-            <img src="assets/images/logo8.png" alt="logo">
-        </div>
-        <ul class="nav-links">
-            <li>
-                <a href="#">Find an expert</a>
-            </li>
-            <li>
-                <a href="#">Log In</a>
-            </li>
-            <li>
-                <a href="#">Sign Up</a>
-            </li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
+        <!--BOOTSTRAP Responsive Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="assets/images/logo8.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="file:///C:/Users/91982/OneDrive/Desktop/Website/clientpage.html#">Find an expert</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav second-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/91982/OneDrive/Desktop/Website/login.html#">Login</a>
+                    
+                  </li>  
+                  <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/91982/OneDrive/Desktop/Website/signup.html#">Sign Up</a>                    
+                  </li>     
+              </ul>
+            </div>
+          </nav>
 
+<!--Banner Images Section-->
     <section class = "banner">
         <div class="center-div">
       <ul class = "banner-slider">
@@ -66,6 +85,8 @@
   </div>
     </section>
   </div>
+
+  <!--Domains Section-->
   <section class="domains">
       <div class="container">
         <h1>We have experts covering over<span> 25 </span>domains.</h1>
@@ -90,7 +111,7 @@
       </div>
   </section>
 
-
+<!--Services offered section-->
   <section class="services">
     <div class="container">
       <h1>how it works</h1>
@@ -120,7 +141,7 @@
     </div>
 </section>
  
-
+<!--Various Benefits section-->
 <section class="benefits">
  <h1 class="heading">Why use AiBuddhi</h1>
     <div class="row">
@@ -267,7 +288,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="500" viewBox="0 0
     
     </div>
     </section>
-
+<!--Subject Matter Experts Section-->
     <section class="subject_experts">
         <h1 class="text-uppercase">Meet our top-notch industry experts</h1>    
         <div class="container carousel py-lg-5">
@@ -316,7 +337,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="500" viewBox="0 0
             </div>
         </section>
 
-
+<!--Customer Reviews Section-->
 <section class="reviews">
 
     <h1 class="text-uppercase">But don't just take our word for it</h1>  
@@ -369,18 +390,17 @@ xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="500" viewBox="0 0
                 </div>
             </div>
         </div>
-    
     </div>
-    
     </section>
 
+    <!--Website Footer-->
     <footer class="footersection">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-6 text-center">
                     <div>
                         <h3>AiBuddhi</h3>
-                        <li><a href="#">Apply as an expert</a></li>
+                        <li><a href="file:///C:/Users/91982/OneDrive/Desktop/Website/sme_application.html#">Apply as an expert</a></li>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-6 text-center">
@@ -412,34 +432,50 @@ xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="500" viewBox="0 0
                 </div>
                 </div>
             </div>
-            <div class="row credit text-center">
-            <div class="col-lg-6 col-md-6 col-6">
-            <h2><i class="far fa-copyright"></i>2021 AiBuddhi</h2>
-            </div>
-            <div class="col-lg-6 col-md-6 col-6">
-                <h2><a href="#">Terms</a>|<a href="#">Privacy</a></h2>
-                </div>
-         
-            </div>
+            <div class="container credits">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-12 text-center">
+                        <div>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12 text-center">
+                        <div>                            
+                            <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12 text-center">
+                        <div>
+                            <h3>AiBuddhi © COPYRIGHT 2021. ALL RIGHTS RESERVED.</h3>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>  
+        
             <div class="scrolltop float-right text-center" id="scrolldiv">
                 <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
             </div>
-            
-            
-        </div>
+            </div>
     </footer>
     
-    
-    
-   
-
-
+<!--JavaScript Files-->
 <script src="assets/fontawesome-icons/all.js"></script>
+<!--jQuery file-->
 <script src="assets/jquery/jquery-3.5.1.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!--Bootstrap file-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--Custom JS-->
 <script src="js/script.js"></script>
+<!--Owl-Carousal-->
 <script src="js/owl.carousel.min.js"></script>
 </body>
 </html>
