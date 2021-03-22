@@ -241,7 +241,7 @@ button:hover
 .intro,.profile-info,.languages,.video-container,.biography-container,.resume-container,.photo-id
 {
     width:100%;height:auto;
-    margin:100px 0;
+    margin:20px 0;
          
 }
 .profile-info input
@@ -294,7 +294,7 @@ button:hover
 .info{
     background:#fff!important;
     border-radius:2px;
-    margin:20px 10px;
+    margin:10px 10px;
     padding:20px;
     width:100%;
 }
