@@ -19,7 +19,7 @@ body{
     font-size: 1.05rem;
     font-weight: 200;
     text-rendering: optimizeLegibility;
-    background:rgb(243, 240, 240)!important ;
+    background:rgb(243, 240, 240)!important;
 }
 img{
     width: 100%;
@@ -71,7 +71,14 @@ nav{
 }
 /*----------------------*-------- NAVBAR SECTION ENDS------------------*-----------*/
 
-
+.form-container{
+    background:#fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px 0px #000;
+    width: 100%;
+    margin:12px 0px!important;
+}
 .video_intro h2{
 
     text-transform: uppercase;
@@ -243,9 +250,8 @@ button:hover
 }
 .resume-container,.biography-container,.photo-id,.languages,.profile-info,.video-container
 {
-    background:#fff!important;
+    
     border-radius:20px;
-    margin-left:50px;
     padding:20px;
 }
 .video_intro img{
@@ -352,7 +358,7 @@ button:hover
  }
  footer
  {
-     background:rgba(252, 251, 251, 0.322);
+     background:rgb(243, 240, 240);
      font-weight:bolder;
      width:100%;
      height:auto;

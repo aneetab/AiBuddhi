@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+<title>SUBJECT MATTER EXPERT APPLICATION</title>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--------*CSS files*--------->
@@ -15,7 +16,7 @@
   <!--Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!--Custom Css file-->
-  <link rel="stylesheet" href="css/sme.css">
+  
 </head>
 <body>
   <!--BOOTSTRAP Responsive Navbar-->
@@ -47,11 +48,12 @@
   </nav>
 
   <!--INTRODUCTION SECTION-->
+ 
     <section>
         <div class="container intro">
             <div class="row">
-            <div class="col-lg-6 col-md-6 col-12">
-                <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 742.418 712.575">
+            <div class="col-lg-6 col-md-6 col-12 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 742.418 712.575">
                     <g id="Group_29" data-name="Group 29" transform="translate(-245 -109)">
                       <path id="Path_339" data-name="Path 339" d="M825.818,262.524h-3.9V155.547A61.915,61.915,0,0,0,760,93.632H533.353a61.915,61.915,0,0,0-61.916,61.916V742.43a61.915,61.915,0,0,0,61.915,61.915H760a61.915,61.915,0,0,0,61.915-61.915V338.672h3.9Z" transform="translate(-147.004 15.369)" fill="#3f3d56"/>
                       <path id="Path_340" data-name="Path 340" d="M808.736,150.925V746.1a46.959,46.959,0,0,1-46.942,46.952h-231.3A46.966,46.966,0,0,1,483.521,746.1V150.925a46.965,46.965,0,0,1,46.971-46.951H558.55a22.329,22.329,0,0,0,20.656,30.74H711.074a22.329,22.329,0,0,0,20.656-30.74h30.055a46.959,46.959,0,0,1,46.951,46.942Z" transform="translate(-146.449 15.843)" fill="#fff"/>
@@ -95,7 +97,7 @@
                   
 
             </div>
-            <div class="col-lg-6 col-md-6 col-12">
+            <div class="col-lg-6 col-md-6 col-12 text-center">
             <h1>Subject Matter Expert Application</h1>
             <h4>Thank you for applying on AiBuddhi.</h4>
             <h2>Please keep in mind.</h2>
@@ -107,61 +109,55 @@
     </section>
 
     <!--PROFILE INFORMATION SECTION-->
-
+    <section class="container-fluid">
+      <section class="row justify-content-center">
+          <section class="col-lg-10 col-md-8 col-sm-6 m-auto display-block">
+    <form class="form-container" action="" method="post" enctype="multipart/form-data">
     <section>
         <div class="container profile-info">
             <h3>Profile</h3>
-                <div class="row">
-                    <div class="col-lg-7 col-md-7 col-12">
+                    <div>
                         <h4>General Information</h4>
-                            <form>
+            
                               <div class="form-group">
                                 <label for="firstname">First Name:</label>
-                                <input type="text" class="form-control" id="firstname">
+                                <input type="text" class="form-control" name="firstname" id="firstname" required>
                               </div>
                               <div class="form-group">
                                 <label for="lastname">Last Name:</label>
-                                <input type="text" class="form-control" id="lastname">
+                                <input type="text" class="form-control" id="lastname" name="lastname" required>
                               </div>
                               <div class="form-group">
                                 <label for="gender">Gender:</label>
-                                <input type="text" class="form-control" id="gender">
+                                <input type="text" class="form-control" id="gender" name="gender" required>
                               </div>
-                            </form>
-                          </div>
-                    <div class="col-lg-5 col-md-5 col-12 text-center">
-                        <h4>Profile Photo</h4>
-                        <div class="profile-photo">
-                            <div class="user-photo"></div>
-                           <button type="button">Upload Photo</button>
-                        </div>
-                    </div>
+                        <div class="form-group">
+                        <label for="file">Profile Pic:</label>
+                        <input type="file" name="profile-pic" id="profile-pic" class="form-control" required>
+</div>
   </div>
-  </div>
+</div>
     </section>
     <!--LANGUAGES SECTION-->
     <section>
         <div class="container languages">
             <h3>Languages</h3>
             <h4>What is your language of instruction and what topics you offer consultation on</h4>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <form>
+                
+                    <div>
+                        
                             <div class="form-group">
                               <label for="language">Languages you speak:</label>
-                              <input type="text" class="form-control" id="language">
+                              <input type="text" class="form-control" name="language" id="language" required>
                             </div>
                             <div class="form-group">
                               <label for="industry">Industry of expertise:</label>
-                              <input type="text" class="form-control" id="industry">
+                              <input type="text" class="form-control" id="industry" name="industry" required>
                             </div>
                             <div class="form-group">
                               <label for="enterprise">Enterprise of expertise:</label>
-                              <input type="text" class="form-control" id="enterprise">
-                            </div>
-                          </form>
-    
-                    </div>                   
+                              <input type="text" class="form-control" id="enterprise" name="enterprise" required>
+                            </div>                                   
   </div>
   </div>
     </section>
@@ -170,17 +166,15 @@
         <div class="container video-container">
             <h3>Video</h3>
             <h4>Record a short subject matter expert profile video.</h4>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <form>
-                            <div class="form-group">
+                
+                    <div>
+                                 <div class="form-group">
                                 <label for="video">Link to introduction video:</label>
-                                <input type="text" class="form-control" id="video">
+                                <input type="file" name="video" id="video" class="form-control" required>
                               </div>
-                        </form>
-                    </div>                   
+                         </div>                   
   </div>
-  </div>
+  
     </section>
     <section>
       <!--ABOUT ME SECTION-->
@@ -188,45 +182,52 @@
             <h3>Biography</h3>
             <h4>Write about yourself and your qualifications.</h4>
             <small>Introduce yourself to the AiBuddhi community.Include your qualifications and experiences.</small>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <form>
+               
+                    <div class="">
                             <div class="form-group">
                                 <label for="about_me">About Me:</label>
-                                <textarea class="form-control" rows="5" id="about_me"></textarea>
+                                <textarea class="form-control" rows="5" id="about_me" name="about_me" required></textarea>
                               </div>                        
-                        </form>
-                    </div>                   
-  </div>
+                         </div>                   
+  
+</div>
     </section>
     <!--RESUME SECTION-->
     <section>
         <div class="container resume-container">
-            <h3>Resume</h3>
+            <h3>Upload Resume</h3>
             <h4>List your qualifications</h4>
-            <small>Tell us more about your education,certifications and relevant work experience. You can add multiple  items to each section. you must add atleast one item</small>
-                <div class="container text-center">
-                        <button type="button">Add item</button>
-                    </div>                   
-  </div>
+            <small>Tell us more about your education,certifications and relevant work experience.Please upload your resume(PDF format).
+            <div>
+                <div class="form-group">
+                <input type="file" name="resume" id="resume" accept="application/pdf" class="form-control" required>  
+         </div>
+</div>
+     </div>
     </section>
     <!--PHOTO-ID SECTION-->
     <section>
         <div class="container photo-id">
             <h3>Photo of your ID</h3>
             <small>Please upload a government ID(passport,driver's license or other form of governmental identity card) verifying your identity.</small>
-                <div class="container text-center">
-                        <button type="button">Upload Photo</button> 
-                    </div>                   
-  </div>
+             <div class="form-group">
+             <label for="photo-id">Upload photo:</label>
+                 <input type="file" name="photo-id" id="photo-id" class="form-control" required>
 </div>
+  </div>
+
     </section>
     <!--SUBMIT FORM SECTION-->
     <section>
-        <div class="container submission text-center">
+        <div class="form-group container submission text-center">
+
             <button type="submit">Submit</button>
         </div>
+</form>
     </section>
+</section>
+</section>
+</section>
     <!--FOOTER SECTION-->
     <footer class="footersection">
       <div class="container">
