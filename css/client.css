@@ -172,14 +172,13 @@ footer
      font-weight:600;
      text-shadow: 0 2px 5px rgb(0,0,0,0.4);
  }
- .credits h3
+ .credits h4
  {
     text-transform:uppercase;
     color:#000;
     margin-bottom:25px;
     font-size:0.7rem !important;
     font-weight:bold;
-    text-shadow: 0 2px 5px rgb(0,0,0,0.4);
     float:right;
 
  }
