@@ -18,7 +18,9 @@ html
 .logo img
 {
     width:130px;
-    height:70px;
+    height:80px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 body{
@@ -70,8 +72,9 @@ nav a:hover
 }
 nav a
 {
-    text-transform:capitalize;
-    letter-spacing: 1px;
+ 
+ letter-spacing: 0.3px;
+ padding-right:14px!important;
  opacity: 0.9;
  font-size: 0.9rem;
  font-weight:bold;
@@ -449,7 +452,6 @@ margin:2px 0;
  .footersection a, .credits a
  {
   text-transform:capitalize;
-  letter-spacing: 1px;
   opacity: 0.9;
   font-size: 0.7rem;
   font-weight:bold;
@@ -471,29 +473,36 @@ margin:2px 0;
     text-transform:uppercase;
     color:#000;
     margin-bottom:25px;
-    font-size:0.6rem !important;
+    font-size:0.7rem !important;
     font-weight:600;
     text-shadow: 0 2px 5px rgb(0,0,0,0.4);
+    float:right;
 
  }
+ 
  .credits
  {
-     background:rgba(252, 251, 251, 0.322);
      font-weight:bolder;
      width:100%;
      height:auto;
-     padding:20px 0 10px 0;
+     padding:10px 0 0 0;
      position:relative;
      display:flex;
-     align-items: center;
-     justify-content: space-evenly;
+     justify-content:space-between;
+ }
+ .social-icons li{
+    display:inline;
+    float:left;
+    padding-right:0.3rem;
  }
  
  .credits li{
      list-style: none;
-     display:inline-block;
-     padding-right:0.2rem;
+     display:inline;
+     float:left;
+     padding-right:0.6rem;
  }
+
  .credits a:hover,.footersection a:hover{
      text-decoration: none;
      color:rgb(99, 16, 16)
